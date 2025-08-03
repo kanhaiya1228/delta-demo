@@ -1,0 +1,63 @@
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bg-white {
+    animation: fadeInScale 0.5s ease-in-out;
+}
+
+.btn-submit {
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background: rgb(10, 16, 177) !important;
+    color: white !important;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg-white{
+    box-shadow: rgb(227, 227, 227) 0px 0px 10px;
+    border-radius: 8px;
+}
+body{
+  background-color: #ebebeb !important;
+
+}
+.content-top{
+    padding: 30px 5px 0px 5px;
+}
+.p40{
+    padding: 50px ;
+}
+.submit:hover{
+    background-color: #0d6efd !important;
+}  
+.Forgetpass ,.SingIn{
+    list-style: none;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+#colour{
+    color: rgb(3, 3, 79);
+    
+}
+.btn-submit{
+    background:rgb(3, 3, 79) !important;
+    color: white!important;
+}
+.btn-submit:hover{
+    background: rgb(10, 16, 177) !important;
+    color: white!important;
+}
